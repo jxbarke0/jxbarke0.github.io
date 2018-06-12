@@ -1,0 +1,17 @@
+
+h1 {
+	color: white;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-variant: small-caps;
+}
+
+p {
+	color: #ffff99;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-variant: small-caps;
+}
+
+.carousel-item {
+	height: 515px;
+	width: auto;
+}
