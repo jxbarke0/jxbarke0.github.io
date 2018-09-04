@@ -98,7 +98,7 @@ h1, h2, h3, h4 {
 }
 
 .hrstyle1 {
-    border-top: 3px double #0026ff;
+    border-top: 2px solid #0026ff;
 }
 
 .hrstyle2 {
@@ -117,7 +117,7 @@ h1, h2, h3, h4 {
 .darken {
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../img/JARF.JPG");
     height: 100%;
-    min-height: 900px;
+    min-height: 960px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -126,7 +126,7 @@ h1, h2, h3, h4 {
 
 
 .backg {
-    min-height: 960px;
+    min-height: 1000px;
 }
 
 .centered {
