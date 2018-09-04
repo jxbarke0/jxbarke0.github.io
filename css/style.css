@@ -1,6 +1,9 @@
 body {
     font-family: 'Roboto', sans-serif;
+    height: 100%;
+    background-size: cover;
 }
+
 
 .rounded-0 {
     border-radius: 0;
@@ -71,12 +74,13 @@ h1, h2, h3, h4 {
 
 .super-heading {
     font-size: 70px;
+    text-shadow: 20px, 12px, 2px, #333;
 }
 
 
 .super-paragraph {
-    font-size: 30px;
-    font-weight: 300;
+    font-size: 20px;
+    font-weight: 200;
 }
 
 .carousel-caption .super-paragraph a,
@@ -107,4 +111,27 @@ h1, h2, h3, h4 {
     padding-bottom: 5px;
     padding-left: 20px;
     image-orientation: unset;
+}
+
+
+.darken {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../img/JARF.JPG");
+    height: 100%;
+    min-height: 900px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+
+.backg {
+    min-height: 960px;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
