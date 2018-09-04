@@ -98,7 +98,7 @@ h1, h2, h3, h4 {
 }
 
 .hrstyle2 {
-    border-top: 1px solid #0026ff;
+    border-bottom: 3px double #0026ff;
 }
 
 .cardheader {
