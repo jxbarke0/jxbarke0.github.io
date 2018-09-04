@@ -100,3 +100,11 @@ h1, h2, h3, h4 {
 .hrstyle2 {
     border-top: 1px solid #0026ff;
 }
+
+.cardheader {
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    image-orientation: unset;
+}
