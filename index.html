@@ -15,7 +15,7 @@
 
       <!-- navbar -->
       <nav class="navbar navbar-toggleable-md navbar-fixed-top navbar-light bg-primary text-white mb-0 rounded-0">
-          <a class="navbar-brand" href="#aboutme">
+          <a class="navbar-brand text-white" href="#aboutme">
               <img src="./img/jefficon.jpg" width="30" height="30" class="d-inline-block align-top" alt="">  Jeff Barker - Software Developer
           </a>
           <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,16 +24,19 @@
           <div class="collapse navbar-collapse text-white" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto text-white">
                   <li class="nav-item active">
-                      <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                      <a class="nav-link text-white" href="#home">Home&nbsp;  | <span class="sr-only">(current)</span></a>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link" href="#aboutme">About Me</a>
+                      <a class="nav-link text-white" href="#aboutme">About Me&nbsp;  | </a>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link" href="#portfolio">Portfolio</a>
+                      <a class="nav-link text-white" href="#proskills">Professional Skills&nbsp;  | </a>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link" href="#links">External Links</a>
+                      <a class="nav-link text-white" href="#portfolio">Development Skills&nbsp;  | </a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link text-white" href="#links">External Links</a>
                   </li>
               </ul>
           </div>
@@ -130,16 +133,76 @@
               After attending <a href="https://www.learncodinganywhere.com/" target="_blank">The Tech Academy</a> this year, I am more confident than ever in my development skills and my ability to learn new ones. Check out my
               <a href="#portfolio">Portfolio</a> section for details on my learning journey. Cheers!<br /><br />
           </p>
-        </div>
+      </div>
 
 
 
-          <hr class="hrstyle1" />
+      <hr class="hrstyle1" />
       <div class="mycontent">
-          <h1 id="portfolio">Technical Skills</h1>
+          <h1>Professional Skills</h1>
+          <div class="card col-md-6 text-center padding-10" style="height: 40rem; text-align: center;">
+              <img class="center-block card-header" src="img/2000px-Office-2010-free-logo.svg.png" />
+              <div class="">
+                  <h3 class="card-title">
+                      Microsoft Office Applications
+                  </h3>
+                  <p class="card-text">
+                      Yes, I know.<br /><br />
+                      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#msoffice">
+                          Learn More
+                      </button>
+                  </p>
+              </div>
+          </div>
+          <div class="card col-md-6 text-center padding-10" style="height: 40rem; text-align: center;">
+              <img class="center-block card-header" src="img/cs.png" />
+              <div class="card-body">
+                  <h3 class="card-title">
+                      Customer Service
+                  </h3>
+                  <p class="card-text">
+                      Good service is good! Bad service is bad!<br /><br />
+                      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#customerservice">
+                          Learn More
+                      </button>
+                  </p>
+              </div>
+          </div>
+          <div class="card col-md-6 text-center padding-10" style="height: 40rem; text-align: center;">
+              <img class="center-block card-header" src="img/teamwork.jpg" />
+              <div class="card-body">
+                  <h3 class="card-title">
+                      Teamwork
+                  </h3>
+                  <p class="card-text">
+                      Go team!<br /><br />
+                      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#teamwork">
+                          Learn More
+                      </button>
+                  </p>
+              </div>
+          </div>
+          <div class="card col-md-6 text-center padding-10" style="height: 40rem; text-align: center;">
+              <img class="center-block card-header" src="img/starter.png" />
+              <div class="card-body">
+                  <h3 class="card-title">
+                      Self-starter
+                  </h3>
+                  <p class="card-text">
+                      I can get it done.<br /><br />
+                      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#independent">
+                          Learn More
+                      </button>
+                  </p>
+              </div>
+          </div>
+      </div>
+ 
+      <div class="mycontent">
+          <h1 id="portfolio">Development Skills</h1>
 
-          <div class="card col-md-6" style="height: 60rem; text-align: center;">
-              <img class="cardheader center-block" src="img/Javascript-shield.png" />
+          <div class="card col-md-6" style="height: 50rem; text-align: center;">
+              <img class="card-header center-block" src="img/Javascript-shield.png" />
               <div class="card-body">
                   <h3 class="card-title">
                       JavaScript with HTML and CSS
@@ -148,12 +211,14 @@
                       My first experience with JavaScript required I learn the language and create a functioning website within 6 days. To add to the challenge, it was all done
                       in Notepad++ with no jQuery or Bootstrap libraries&mdash;raw HTML, CSS, and Javascript only!
                   </p>
+              </div>
+              <div>
                   <a href="https://github.com/jxbarke0/Tech-Academy-Projects/tree/master/PizzaProject" target="_blank" class="btn btn-primary">See it on GitHub</a>
               </div>
           </div>
 
-          <div class="card col-md-6 text-center" style="height: 60rem; text-align: center;">
-              <img class="cardheader center-block" src="img/sqlicon.jpg" />
+          <div class="card col-md-6 text-center" style="height: 50rem; text-align: center;">
+              <img class="card-header center-block" src="img/sqlicon.jpg" />
               <div class="card-body">
                   <h3 class="card-title">
                       SQL / T-SQL
@@ -167,8 +232,8 @@
               </div>
           </div>
 
-          <div class="card col-md-6 text-center padding-10" style="height: 60rem; text-align: center;">
-              <img class="cardheader center-block" src="img/Csharp_Logo.png" />
+          <div class="card col-md-6 text-center padding-10" style="height: 50rem; text-align: center;">
+              <img class="card-header center-block" src="img/Csharp_Logo.png" />
               <div class="card-body">
                   <h3 class="card-title">
                       C# with ASP.NET MVC using Visual Studio
@@ -181,8 +246,8 @@
               </div>
           </div>
 
-          <div class="card col-md-6 text-center padding-10" style="height: 60rem; text-align: center;">
-              <img class="cardheader center-block" src="img/VSlogo.png" />
+          <div class="card col-md-6 text-center padding-10" style="height: 50rem; text-align: center;">
+              <img class="card-header center-block" src="img/VSlogo.png" />
               <div class="card-body">
                   <h3 class="card-title">
                       Live Project (C#, HTML, CSS, JavaScript, ASP.NET MVC)
@@ -196,100 +261,194 @@
                   <a href="https://github.com/jxbarke0/Tech-Academy-Projects/blob/master/LiveProjectCodeRetrospective.pdf" target="_blank" class="btn btn-primary">See it on GitHub</a>
               </div>
           </div>
-        </div>
-
-          <!--<h3>JavaScript with HTML and CSS</h3>
-        <p>
-            My first experience with JavaScript required I learn the language and create a functioning website within 6 days. To add to the challenge, it was all done
-            in Notepad++ with no jQuery or Bootstrap libraries&mdash;raw HTML, CSS, and Javascript only!
-        </p>
-        <div class="container">
-            <img src="img/pizzaproject1.png" />
-            <br />
-            <img src="img/pizzaproject2.png" />
-            <br />
-            <p class="caption">
-                Since the focus of the project was JavaScript, I admit didn't spend a lot of time on design (it's a little retro!), but I was ecstatic when I got the scripts to work properly
-                to calculate the price of a pizza with the requested toppings and display and itemized receipt.
-                You can see more of the project <a href="https://github.com/jxbarke0/Tech-Academy-Projects/tree/master/PizzaProject" target="_blank">here on my GitHub</a>.
-            </p>
-        </div>
-
-        <hr class="hrstyle2" />
-        <h3>SQL / T-SQL</h3>
-        <p>
-            I was excited to learn more SQL because I had worked with it peripherally at my job, writing scripts to update employee information in a database. Of course,
-            at my job it was done with a template on an Excel binary spreadsheet, but it did require focus and logic to get the scripts to work properly before they were
-            deployed to production. Due to my previous experience, I was able to pick up T-SQL and create a working database within a week.
-        </p>
-        <div class="container">
-            <img src="img/sql.png" /><br />
-            <p>
-                For this project, I created a database for a library system with tables showing library users, branches, books loaned out, book titles, and publishers. The challenge
-                was writing queries to this database to get lists pulling data from multiple tables. I had a lot of fun with it! You can see more <a href="https://github.com/jxbarke0/Tech-Academy-Projects/blob/master/techlibrary2.sql" target="_blank">here on my GitHub</a>.
-            </p>
-        </div>-->
-          <!--<hr class="hrstyle2" />
-        <h3>C# with ASP.NET MVC using Visual Studio</h3>
-        <p>
-            C# was by far my favorite language to learn and use. The programs I created range from a simple console app to calculate a triangle's hypotenuse length to more robust web applications allowing you to import an Excel file to update a database.
-            One of my favorites was a web application I designed that calculates a quote for car insurance and stores the information in a database.
-        </p>
-        <div class="container">
-            <img src="img/newtco.png" /><br />
-            <img src="img/newtco3.png" /><br /><br />
-            <p>The application takes user input for various fields and calculates the total monthly quote amount based on those entries.</p>
-            <img src="img/newtco1.png" /><br /><br />
-            <p>It also included an Admin view, which returns a list of the quote amounts from the database for an administrator.</p>
-            <img src="img/newtco2.png" /><br /><br />
-            <p>This project was very challenging, but it was so satisfying to see it all come together.</p>
-        </div>
-
-        <hr class="hrstyle2" />
-        <h3>Live Project (C#, HTML, CSS, JavaScript, ASP.NET MVC)</h3>
-        <p>
-            This project took all the skills I had learned so far and put them to practical use in a team environment using Agile and Scrum methodology.
-            I was assigned to a team responsible for adding certain features to the Tech Academy website. Specifically, the pages I worked on were designed for the school's
-            Job Placement Director to pull student information from a database to track hiring patterns and other analytics, as well as post bulletins for students.
-            You can read a full synopsis of my work on the project <a href="https://github.com/jxbarke0/Tech-Academy-Projects/blob/master/LiveProjectCodeRetrospective.pdf" target="_blank">on my GitHub page</a>.
-            Here are some highlights:
-        </p>
-        <div class="container">
-            <p>
-                One of the first user stories I worked on involved adding sort functionality for a screen that displayed student data along with the total number of job applications
-                they had submitted within the last week and overall.
-            </p>
-            <img src="img/liveproject1.png" /><br /><br />
-            <p>
-                This required the use of nested lambda expressions to pull the needed information from the database and sort by the calculated figures.<br />
-                Another challenging user story was adding a method to one of the controllers that would calculate average applications per hired student, the most common company that hires students, and the most
-                common job title held by new hires, all requiring queries of database information from multiple tables:
-            </p>
-            <img src="img/liveproject2.png" /><br /><br />
-            <p>Below is code I wrote designed to take in a concatenated string and create a simple CSV file with it:</p>
-            <img src="img/liveproject3.png" /><br /><br />
-            <p>Next, putting my JavaScript experience back to use, I added buttons to the bulletins page to allow the user to add markup language when creating a new bulletin:</p>
-            <img src="img/liveproject4.png" /><br /><br />
-            <p>One of the last user stories I worked on involved pulling a list of items that included data from two different tables, and also included a third table if a certain flag was set to "true":</p>
-            <img src="img/liveproject5.png" /><br /><br />
-        </div>-->
+      </div>
 
 
-          <br />
-          <div class="mycontent">
-              <hr class="hrstyle1" /><br />
-              <div class="col-md-12 mt-10">
-                  <h1 id="links">External Links</h1>
-                  <p>
-                      <ul>
-                          <li><a href="https://www.linkedin.com/in/jeffrbarker" target="_blank">My LinkedIn Page</a></li>
-                          <li><a href="https://github.com/jxbarke0" target="_blank">My GitHub</a></li>
-                          <li><a href="https://www.learncodinganywhere.com/" target="_blank">The Tech Academy</a></li>
-
-                      </ul>
-                  </p>
+      <div class="modal fade" id="msoffice" tabindex="-1" role="dialog" aria-labelledby="msofficeTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <h5 class="modal-title" id="msofficeTitle"><img class="center-block" src="img/2000px-Office-2010-free-logo.svg.png" /></h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                      </button>
+                  </div>
+                  <div class="modal-body">
+                      <h4>Microsoft Office!</h4>
+                      Working over 14 years for a company that uses Microsoft Office applications pretty much guarantees you'll become an expert in one way or another.
+                      I have experience using the tragic early-2000s versions of most Office applications, and survived each upgrade to slightly more modern versions.
+                      This includes Word, Excel, Outlook, SharePoint, and Access.<br /><br />
+                      <p>Yes, lots of people have experience with these, but I would be terrified of working with a person who was not. These programs are important to know because they are so common.</p>
+                  </div>
+                  <div class="modal-footer">
+                      <button type="button" class="btn btn-primary" data-dismiss="modal">Cool Story!</button>
+                  </div>
               </div>
           </div>
+      </div>
+      <div class="modal fade" id="customerservice" tabindex="-1" role="dialog" aria-labelledby="customerserviceTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <h5 class="modal-title" id="customerserviceTitle"><img class="center-block" src="img/cs.png" /></h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                      </button>
+                  </div>
+                  <div class="modal-body">
+                      <h4>Customer Service!</h4>
+                      Every position I've ever held required some degree of customer service, whether through phone, email, or web chat. My first positions in customer
+                      service were in very fast-paced environments, each with their own busy season. Learning to be patient and understanding in such stressful environments
+                      is a skill everyone should learn. I've proven myself to be calm and cool-headed while also being knowledgeable and efficient. I'm a helpful person!
+                  </div>
+                  <div class="modal-footer">
+                      <button type="button" class="btn btn-primary" data-dismiss="modal">I'm so glad you're great!</button>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="modal fade" id="teamwork" tabindex="-1" role="dialog" aria-labelledby="teamworkTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <h5 class="modal-title" id="teamworkTitle"><img class="center-block" src="img/teamwork.jpg" /></h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                      </button>
+                  </div>
+                  <div class="modal-body">
+                      <h4>Teamwork!</h4>
+                      I have been extremely lucky to have worked with so many great people over the years. The best part about being on a team is learning. Everyone I've
+                      worked with has had something to offer: some life experience to pull from, some wisdom to impart, or they're just fun to work with. You learn a lot
+                      about a person if you're stuck in a room with them for 40 hours a week.<br /><br />
+                      My most recent experience working with a team was working with other developers in using Agile Scrum methodology to add features to the school website. Any project has its roadblocks,
+                      and it's good to have a team to rely on for bouncing ideas and getting different perspectives on a problem. More importantly, everyone has their strengths.
+                      Some people on the team were better at the smaller, more repetitive tasks. Some members excelled at the design work. Of course, this being my website,
+                      I have to say I'm great at them all, but there is nothing more satisfying than working with a team on a complicated task and having it come out perfectly.
+                  </div>
+                  <div class="modal-footer">
+                      <button type="button" class="btn btn-primary" data-dismiss="modal">I agree with the above.</button>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="modal fade" id="independent" tabindex="-1" role="dialog" aria-labelledby="independentTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <h5 class="modal-title" id="independentTitle"><img class="center-block" src="img/starter.png" /></h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                      </button>
+                  </div>
+                  <div class="modal-body">
+                      <h4>Reliability Through Independence</h4>
+                      Yes, the term "self-starter" is overused, but its meaning is important. If you are driven purely by explicit instruction,
+                      you might be a computer program. Having the independence and will to make our own decisions is what makes us human. In this way, we are all "self-starters."
+                      However, being able to exercise an appropriate degree of independence in a professional environment is an asset; it's easier on management and it's easier
+                      on your team.
+                      I've always considered myself an independent person, but it is evidenced by my recent position working for an Operations department.
+                      This position was 100% remote, meaning I worked from home for six years. Telecommuting demands the personality of a true self-starter. I have proven myself
+                      capable of working independently while collaborating with a team at the same time. I can get the work done without being prodded or micromanaged.
+                  </div>
+                  <div class="modal-footer">
+                      <button type="button" class="btn btn-primary" data-dismiss="modal">Good to hear!</button>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <!--<h3>JavaScript with HTML and CSS</h3>
+    <p>
+        My first experience with JavaScript required I learn the language and create a functioning website within 6 days. To add to the challenge, it was all done
+        in Notepad++ with no jQuery or Bootstrap libraries&mdash;raw HTML, CSS, and Javascript only!
+    </p>
+    <div class="container">
+        <img src="img/pizzaproject1.png" />
+        <br />
+        <img src="img/pizzaproject2.png" />
+        <br />
+        <p class="caption">
+            Since the focus of the project was JavaScript, I admit didn't spend a lot of time on design (it's a little retro!), but I was ecstatic when I got the scripts to work properly
+            to calculate the price of a pizza with the requested toppings and display and itemized receipt.
+            You can see more of the project <a href="https://github.com/jxbarke0/Tech-Academy-Projects/tree/master/PizzaProject" target="_blank">here on my GitHub</a>.
+        </p>
+    </div>
+
+    <hr class="hrstyle2" />
+    <h3>SQL / T-SQL</h3>
+    <p>
+        I was excited to learn more SQL because I had worked with it peripherally at my job, writing scripts to update employee information in a database. Of course,
+        at my job it was done with a template on an Excel binary spreadsheet, but it did require focus and logic to get the scripts to work properly before they were
+        deployed to production. Due to my previous experience, I was able to pick up T-SQL and create a working database within a week.
+    </p>
+    <div class="container">
+        <img src="img/sql.png" /><br />
+        <p>
+            For this project, I created a database for a library system with tables showing library users, branches, books loaned out, book titles, and publishers. The challenge
+            was writing queries to this database to get lists pulling data from multiple tables. I had a lot of fun with it! You can see more <a href="https://github.com/jxbarke0/Tech-Academy-Projects/blob/master/techlibrary2.sql" target="_blank">here on my GitHub</a>.
+        </p>
+    </div>-->
+      <!--<hr class="hrstyle2" />
+    <h3>C# with ASP.NET MVC using Visual Studio</h3>
+    <p>
+        C# was by far my favorite language to learn and use. The programs I created range from a simple console app to calculate a triangle's hypotenuse length to more robust web applications allowing you to import an Excel file to update a database.
+        One of my favorites was a web application I designed that calculates a quote for car insurance and stores the information in a database.
+    </p>
+    <div class="container">
+        <img src="img/newtco.png" /><br />
+        <img src="img/newtco3.png" /><br /><br />
+        <p>The application takes user input for various fields and calculates the total monthly quote amount based on those entries.</p>
+        <img src="img/newtco1.png" /><br /><br />
+        <p>It also included an Admin view, which returns a list of the quote amounts from the database for an administrator.</p>
+        <img src="img/newtco2.png" /><br /><br />
+        <p>This project was very challenging, but it was so satisfying to see it all come together.</p>
+    </div>
+
+    <hr class="hrstyle2" />
+    <h3>Live Project (C#, HTML, CSS, JavaScript, ASP.NET MVC)</h3>
+    <p>
+        This project took all the skills I had learned so far and put them to practical use in a team environment using Agile and Scrum methodology.
+        I was assigned to a team responsible for adding certain features to the Tech Academy website. Specifically, the pages I worked on were designed for the school's
+        Job Placement Director to pull student information from a database to track hiring patterns and other analytics, as well as post bulletins for students.
+        You can read a full synopsis of my work on the project <a href="https://github.com/jxbarke0/Tech-Academy-Projects/blob/master/LiveProjectCodeRetrospective.pdf" target="_blank">on my GitHub page</a>.
+        Here are some highlights:
+    </p>
+    <div class="container">
+        <p>
+            One of the first user stories I worked on involved adding sort functionality for a screen that displayed student data along with the total number of job applications
+            they had submitted within the last week and overall.
+        </p>
+        <img src="img/liveproject1.png" /><br /><br />
+        <p>
+            This required the use of nested lambda expressions to pull the needed information from the database and sort by the calculated figures.<br />
+            Another challenging user story was adding a method to one of the controllers that would calculate average applications per hired student, the most common company that hires students, and the most
+            common job title held by new hires, all requiring queries of database information from multiple tables:
+        </p>
+        <img src="img/liveproject2.png" /><br /><br />
+        <p>Below is code I wrote designed to take in a concatenated string and create a simple CSV file with it:</p>
+        <img src="img/liveproject3.png" /><br /><br />
+        <p>Next, putting my JavaScript experience back to use, I added buttons to the bulletins page to allow the user to add markup language when creating a new bulletin:</p>
+        <img src="img/liveproject4.png" /><br /><br />
+        <p>One of the last user stories I worked on involved pulling a list of items that included data from two different tables, and also included a third table if a certain flag was set to "true":</p>
+        <img src="img/liveproject5.png" /><br /><br />
+    </div>-->
+
+
+      <br />
+      <div class="mycontent"><br />
+          <div class="col-md-12 mt-10">
+              <h1 id="links">External Links</h1>
+              <p>
+                  <ul>
+                      <li><a href="https://www.linkedin.com/in/jeffrbarker" target="_blank">My LinkedIn Page</a></li>
+                      <li><a href="https://github.com/jxbarke0" target="_blank">My GitHub</a></li>
+                      <li><a href="https://www.learncodinganywhere.com/" target="_blank">The Tech Academy</a></li>
+
+                  </ul>
+              </p>
+          </div>
+      </div>
 
 
 
