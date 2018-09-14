@@ -135,3 +135,18 @@ h1, h2, h3, h4 {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+#portfolio {
+    margin-top: 75%;
+}
+
+footer {
+    background-color: #337ab7;
+    height: 16px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    color: #337ab7;
+    margin-top: -10px;
+    clear: both;
+}
