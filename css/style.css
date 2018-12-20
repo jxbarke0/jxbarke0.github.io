@@ -2,6 +2,7 @@ body {
     font-family: 'Roboto', sans-serif;
     height: 100%;
     background-size: cover;
+    background-color: #f2f2f2;
 }
 
 
@@ -95,10 +96,11 @@ h1, h2, h3, h4 {
 .mycontent {
     padding-left: 10%;
     padding-right: 10%;
+    padding-top: 20px;
 }
 
 .hrstyle1 {
-    border-top: 2px solid #0026ff;
+    border-top: 2px solid #337ab7;
 }
 
 .hrstyle2 {
@@ -146,7 +148,24 @@ footer {
     position: fixed;
     bottom: 0px;
     width: 100%;
-    color: #337ab7;
+    color: #337a00;
     margin-top: -10px;
     clear: both;
 }
+
+.col-md-6 {
+    border: 1px solid #337ab7;
+}
+
+.col-md-6:hover {
+    background-color: white;
+}
+
+.links {
+    border: 5px dotted #337ab7;
+}
+
+    .links:hover {
+        border: 5px dashed #4d4dff;
+        background-color: white;
+    }
