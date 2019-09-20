@@ -41,6 +41,9 @@
                     <a class="nav-link text-white" href="#proskills">Professional Skills&nbsp;  | </a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link text-white" href="#devskills">Development Skills&nbsp;  | </a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link text-white" href="#portfolio">Projects&nbsp;  | </a>
                 </li>
                 <li class="nav-item">
@@ -56,7 +59,7 @@
             <div class="centered">
                 <h1 class="super-heading ">Hi, I'm Jeff.</h1>
                 <p class="super-paragraph">
-                    I'm a software developer living in Portland, Oregon, with a love for burritos, video games, and coding. <br /><a href="#aboutme">Click here</a> to find out more about me.
+                    I'm a software developer living in the Pacific Northwest with a love for burritos, video games, and coding. <br /><a href="#aboutme">Click here</a> to find out more about me.
                 </p>
             </div>
         </div>
@@ -105,7 +108,7 @@
     <!-- end carousel -->
     <br />
     <hr class="hrstyle1" id="aboutme" />
-    <div class="mycontent">
+    <div class="mycontent about-me">
         <h1>About Me</h1>
         <p>
             I remember the iconic moment my dad updated the family PC from Windows 3.0 to Windows 3.1. Of course, back then
@@ -138,7 +141,10 @@
             with the Dev team when problems arose, and full-stack development became my goal.
         </p>
         <p>
-            After attending <a href="https://www.learncodinganywhere.com/" target="_blank">The Tech Academy</a> this year, I am more confident than ever in my development skills and my ability to learn new ones. Check out my
+            After attending <a href="https://www.learncodinganywhere.com/" target="_blank">The Tech Academy</a> in 2018, I was hired to their development team as a full-stack developer
+            where I have been working since. We use C# in an ASP.NET MVC application with a React-Redux front end. We also planned the architecture for the next phase
+            of our application using .NET Core microservices containerized with Docker in Azure. Aside from those technologies, I have a huge love for jQuery and the
+            Wild West that is JavaScript. I am always looking to learn new languages and frameworks, most recently having built an app using Angular. See my
             <a href="#portfolio">Portfolio</a> section for details on my learning journey. Cheers!<br /><br />
         </p>
     </div>
@@ -148,128 +154,192 @@
     <hr class="hrstyle1" />
     <div class="mycontent">
         <h1 id="proskills">Professional Skills</h1>
-        <div class="col-md-6 text-center padding-10" style="height: 40rem; text-align: center;">
-            <img class="center-block card-header" src="img/2000px-Office-2010-free-logo.svg.png" />
-            <div>
-                <h3 class="card-title">
-                    Microsoft Office Applications
-                </h3>
-                <p class="card-text">
-                    Yes, I know Office well. It probably has something to do with working in offices my entire adult life or something.<br /><br />
-                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#msoffice">
-                        Learn More
-                    </button>
-                </p>
+        <div class="row">
+            <div class="col-md-6 text-center padding-10" style="height: 40rem; text-align: center;">
+                <img class="center-block card-header" src="img/2000px-Office-2010-free-logo.svg.png" />
+                <div>
+                    <h3 class="card-title">
+                        Microsoft Office Applications
+                    </h3>
+                    <p class="card-text">
+                        Yes, I know Office well. It probably has something to do with working in offices my entire adult life or something.<br /><br />
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#msoffice">
+                            Learn More
+                        </button>
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6 text-center padding-10" style="height: 40rem; text-align: center;">
+                <img class="center-block card-header" src="img/cs.png" />
+                <div class="card-body">
+                    <h3 class="card-title">
+                        Customer Service
+                    </h3>
+                    <p class="card-text">
+                        Good service is good! Bad service is bad! I'm good at good service! You wouldn't believe my phone voice; I've been told to do radio. Okay, only once, but it was a happy moment.<br /><br />
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#customerservice">
+                            Learn More
+                        </button>
+                    </p>
+                </div>
             </div>
         </div>
-        <div class="col-md-6 text-center padding-10" style="height: 40rem; text-align: center;">
-            <img class="center-block card-header" src="img/cs.png" />
-            <div class="card-body">
-                <h3 class="card-title">
-                    Customer Service
-                </h3>
-                <p class="card-text">
-                    Good service is good! Bad service is bad! I'm good at good service! You wouldn't believe my phone voice; I've been told to do radio. Okay, only once, but it was a happy moment.<br /><br />
-                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#customerservice">
-                        Learn More
-                    </button>
-                </p>
+        <div class="row">
+            <div class="col-md-6 text-center padding-10" style="height: 40rem; text-align: center;">
+                <img class="center-block card-header" src="img/teamwork.jpg" />
+                <div class="card-body">
+                    <h3 class="card-title">
+                        Teamwork
+                    </h3>
+                    <p class="card-text">
+                        Go team! I love every team I've ever been on.<br /><br />
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#teamwork">
+                            Learn More
+                        </button>
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6 text-center padding-10" style="height: 40rem; text-align: center;">
+                <img class="center-block card-header" src="img/starter.png" />
+                <div class="card-body">
+                    <h3 class="card-title">
+                        Self-starter
+                    </h3>
+                    <p class="card-text">
+                        I can get it done, and then some.<br /><br />
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#independent">
+                            Learn More
+                        </button>
+                    </p>
+                </div>
             </div>
         </div>
-        <div class="col-md-6 text-center padding-10" style="height: 40rem; text-align: center;">
-            <img class="center-block card-header" src="img/teamwork.jpg" />
-            <div class="card-body">
-                <h3 class="card-title">
-                    Teamwork
-                </h3>
-                <p class="card-text">
-                    Go team! I love every team I've ever been on.<br /><br />
-                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#teamwork">
-                        Learn More
-                    </button>
-                </p>
+        
+    </div>
+    <div class="mycontent development">
+        <h1 id="devskills">Development Skills</h1>
+        <h3 class="subheading">I can build anything with these. Always learning more.</h3>
+        <div class="row">
+            <div class="container text-center col-md-3">
+                <h4 class="text-center">C#</h4>
+                <img src="img/Csharp_Logo.png" />
             </div>
-        </div>
-        <div class="col-md-6 text-center padding-10" style="height: 40rem; text-align: center;">
-            <img class="center-block card-header" src="img/starter.png" />
-            <div class="card-body">
-                <h3 class="card-title">
-                    Self-starter
-                </h3>
-                <p class="card-text">
-                    I can get it done, and then some.<br /><br />
-                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#independent">
-                        Learn More
-                    </button>
-                </p>
+            <div class="container text-center col-md-3">
+                <h4 class="text-center">.NET</h4>
+                <img src="img/VSlogo.png" />
+            </div>
+            <div class="container text-center col-md-3">
+                <h4 class="text-center">SQL Server</h4>
+                <img src="img/sqlicon.jpg" />
+            </div>
+            <div class="container text-center col-md-3">
+                <h4 class="text-center">JavaScript</h4>
+                <img src="img/Javascript-shield.png" />
+            </div>
+            <div class="container text-center col-md-3">
+                <h4 class="text-center">jQuery</h4>
+                <img src="img/jquery.png" />
+            </div>
+            <div class="container text-center col-md-3">
+                <h4 class="text-center">React/Redux</h4>
+                <img src="img/320px-React-icon.svg.png" />
+            </div>
+            <div class="container text-center col-md-3">
+                <h4 class="text-center">CSS3</h4>
+                <img src="img/css.png" />
+            </div>
+            <div class="container text-center col-md-3">
+                <h4 class="text-center">HTML5</h4>
+                <img src="img/html5.png" />
+            </div>
+
+            <div class="container text-center col-md-3">
+                <h4 class="text-center">Node.js/npm</h4>
+                <img src="img/nodejs.png" />
+            </div>
+            <div class="container text-center col-md-3">
+                <h4 class="text-center">Azure DevOps/Cloud</h4>
+                <img src="img/azure.png" />
+            </div>
+            <div class="container text-center col-md-3">
+                <h4 class="text-center">Docker</h4>
+                <img src="img/docker.jpg" />
+            </div>
+            <div class="container text-center col-md-3">
+                <h4 class="text-center">Angular 8</h4>
+                <img src="img/angular.png" />
             </div>
         </div>
     </div>
 
 
     <div class="mycontent">
-        <h1 id="portfolio">Projects</h1>
+        <h1 id="portfolio">TTA Projects</h1>
 
-        <div class="col-md-6" style="height: 60rem; text-align: center;">
-            <img class="card-header center-block" src="img/Javascript-shield.png" />
-            <div class="card-body">
-                <h3 class="card-title">
-                    JavaScript with HTML and CSS
-                </h3>
-                <p class="card-text">
-                    My first experience with JavaScript required I learn the language and create a functioning website within 6 days. To add to the challenge, it was all done
-                    in Notepad++ with no jQuery or Bootstrap libraries&mdash;raw HTML, CSS, and Javascript only!
-                </p>
-                <p>
-                    One day, I'll go back and rewrite this with everything I know now. In the meantime, I think it is so cute to see the work I did when I was just starting.<br /><br />
-                </p>
+        <div class="row">
+            <div class="col-md-6" style="height: 60rem; text-align: center;">
+                <img class="card-header center-block" src="img/Javascript-shield.png" />
+                <div class="card-body">
+                    <h3 class="card-title">
+                        JavaScript with HTML and CSS
+                    </h3>
+                    <p class="card-text">
+                        My first experience with JavaScript required I learn the language and create a functioning website within 6 days. To add to the challenge, it was all done
+                        in Notepad++ with no jQuery or Bootstrap libraries&mdash;raw HTML, CSS, and Javascript only!
+                    </p>
+                    <p>
+                        One day, I'll go back and rewrite this with everything I know now. In the meantime, I think it is so cute to see the work I did when I was just starting.<br /><br />
+                    </p>
+                </div>
+                <div>
+                    <a href="https://github.com/jxbarke0/Tech-Academy-Projects/tree/master/PizzaProject" target="_blank" class="btn btn-primary">See the cuteness on GitHub</a>
+                </div>
             </div>
-            <div>
-                <a href="https://github.com/jxbarke0/Tech-Academy-Projects/tree/master/PizzaProject" target="_blank" class="btn btn-primary">See the cuteness on GitHub</a>
-            </div>
-        </div>
 
-        <div class="col-md-6 text-center" style="height: 60rem; text-align: center;">
-            <img class="card-header center-block" src="img/sqlicon.jpg" />
-            <div class="card-body">
-                <h3 class="card-title">
-                    SQL / T-SQL
-                </h3>
-                <p class="card-text">
-                    I was excited to learn more SQL because I had worked with it peripherally at my job, writing scripts to update employee information in a database. Of course,
-                    at my job it was done with a template on an Excel binary spreadsheet, but it did require focus and logic to get the scripts to work properly before they were
-                    deployed to production. Due to my previous experience, I was able to pick up T-SQL and create a working relational database within a week.
-                </p>
-                <a href="https://github.com/jxbarke0/Tech-Academy-Projects/blob/master/techlibrary2.sql" target="_blank" class="btn btn-primary">"Join" me in viewing this on GitHub ;)</a>
-            </div>
-        </div>
-
-        <div class="col-md-6 text-center padding-10" style="height: 60rem; text-align: center;">
-            <img class="card-header center-block" src="img/Csharp_Logo.png" />
-            <div class="card-body">
-                <h3 class="card-title">
-                    C# with ASP.NET MVC using Visual Studio
-                </h3>
-                <p class="card-text">
-                    C# was by far my favorite back-end language to learn and use. The programs I created range from a simple console app to calculate a triangle's hypotenuse length to more robust web applications allowing you to import an Excel file to update a database.
-                    One of my favorites was a web application I designed that calculates a quote for car insurance and stores the information in a database. Please note I am able to edit myself IRL and stay professional, but for practice projects, I like to have fun!
-                </p>
-                <a href="https://github.com/jxbarke0/CarInsuranceMVC" target="_blank" class="btn btn-primary">See it on GitHub</a>
+            <div class="col-md-6 text-center" style="height: 60rem; text-align: center;">
+                <img class="card-header center-block" src="img/sqlicon.jpg" />
+                <div class="card-body">
+                    <h3 class="card-title">
+                        SQL / T-SQL
+                    </h3>
+                    <p class="card-text">
+                        I was excited to learn more SQL because I had worked with it peripherally at my job, writing scripts to update employee information in a database. Of course,
+                        at my job it was done with a template on an Excel binary spreadsheet, but it did require focus and logic to get the scripts to work properly before they were
+                        deployed to production. Due to my previous experience, I was able to pick up T-SQL and create a working relational database within a week.
+                    </p>
+                    <a href="https://github.com/jxbarke0/Tech-Academy-Projects/blob/master/techlibrary2.sql" target="_blank" class="btn btn-primary">"Join" me in viewing this on GitHub ;)</a>
+                </div>
             </div>
         </div>
 
-        <div class="col-md-6 text-center padding-10" style="height: 60rem; text-align: center;">
-            <img class="card-header center-block" src="img/VSlogo.png" />
-            <div class="card-body">
-                <h3 class="card-title">
-                    Live Project (C#, HTML, CSS, JavaScript, ASP.NET MVC)
-                </h3>
-                <p class="card-text">
-                    This project took all the skills I had learned so far and put them to practical use in a team environment using Agile and Scrum methodology.
-                    I was assigned to a team responsible for adding certain features to the Tech Academy website and LMS using C# and JavaScript in ASP.NET MVC architecture.
-                    Click the button below to read a full synopsis of my work on the project.
-                </p>
-                <a href="https://github.com/jxbarke0/Tech-Academy-Projects/blob/master/LiveProjectCodeRetrospective.pdf" target="_blank" class="btn btn-primary">See it on GitHub</a>
+        <div class="row">
+            <div class="col-md-6 text-center padding-10" style="height: 60rem; text-align: center;">
+                <img class="card-header center-block" src="img/Csharp_Logo.png" />
+                <div class="card-body">
+                    <h3 class="card-title">
+                        C# with ASP.NET MVC using Visual Studio
+                    </h3>
+                    <p class="card-text">
+                        C# was by far my favorite back-end language to learn and use. The programs I created range from a simple console app to calculate a triangle's hypotenuse length to more robust web applications allowing you to import an Excel file to update a database.
+                        One of my favorites was a web application I designed that calculates a quote for car insurance and stores the information in a database. Please note I am able to edit myself IRL and stay professional, but for practice projects, I like to have fun!
+                    </p>
+                    <a href="https://github.com/jxbarke0/CarInsuranceMVC" target="_blank" class="btn btn-primary">See it on GitHub</a>
+                </div>
+            </div>
+
+            <div class="col-md-6 text-center padding-10" style="height: 60rem; text-align: center;">
+                <img class="card-header center-block" src="img/VSlogo.png" />
+                <div class="card-body">
+                    <h3 class="card-title">
+                        Live Project (C#, HTML, CSS, JavaScript, ASP.NET MVC)
+                    </h3>
+                    <p class="card-text">
+                        This project took all the skills I had learned so far and put them to practical use in a team environment using Agile and Scrum methodology.
+                        I was assigned to a team responsible for adding certain features to the Tech Academy website and LMS using C# and JavaScript in ASP.NET MVC architecture.
+                        Click the button below to read a full synopsis of my work on the project.
+                    </p>
+                    <a href="https://github.com/jxbarke0/Tech-Academy-Projects/blob/master/LiveProjectCodeRetrospective.pdf" target="_blank" class="btn btn-primary">See it on GitHub</a>
+                </div>
             </div>
         </div>
     </div>

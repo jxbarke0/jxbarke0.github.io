@@ -5,7 +5,6 @@ body {
     background-color: #f2f2f2;
 }
 
-
 .rounded-0 {
     border-radius: 0;
 }
@@ -71,6 +70,7 @@ body {
 
 h1, h2, h3, h4 {
     font-weight: 700;
+    text-align: center;
 }
 
 .super-heading {
@@ -94,13 +94,14 @@ h1, h2, h3, h4 {
 }
 
 .mycontent {
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 20px;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-top: 50px;
 }
 
 .hrstyle1 {
-    border-top: 2px solid #337ab7;
+    border: none;
+    margin: 0;
 }
 
 .hrstyle2 {
@@ -117,7 +118,7 @@ h1, h2, h3, h4 {
 
 
 .darken {
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../img/JARF.JPG");
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../img/IMG_0322.jpg");
     height: 100%;
     min-height: 960px;
     background-position: center;
@@ -128,7 +129,7 @@ h1, h2, h3, h4 {
 
 
 .backg {
-    min-height: 1000px;
+    min-height: 100vh;
 }
 
 .centered {
@@ -136,10 +137,6 @@ h1, h2, h3, h4 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
-
-#portfolio {
-    margin-top: 75%;
 }
 
 footer {
@@ -169,3 +166,30 @@ footer {
         border: 5px dashed #4d4dff;
         background-color: white;
     }
+
+.about-me p {
+    text-align: justify;
+}
+
+.development img {
+    width: 150px;
+    max-height: 160px;
+}
+
+.development .container {
+    margin-bottom: 20px;
+}
+
+.subheading {
+    margin-top: 0;
+}
+
+.development .row {
+    border: 5px dotted #337ab7;
+    background-color: white;
+}
+
+.development .row:hover {
+    border: 5px dashed #4d4dff;
+    
+}
