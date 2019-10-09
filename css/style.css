@@ -203,3 +203,24 @@ footer {
 .main-photo:hover {
     opacity: 0;
 }
+
+@media (max-width: 400px) {
+    h1.super-heading {
+        font-size: 35px;
+    }
+
+    .main-photo {
+        margin-top: 25%;
+    }
+
+    .darken {
+        min-height: unset;
+        height: 100vh;
+    }
+}
+
+.modal-header .close {
+    margin-top: unset;
+    position: absolute;
+    top: 10px;
+}
